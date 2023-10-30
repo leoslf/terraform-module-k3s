@@ -78,3 +78,8 @@ output "kubernetes_cluster_secret" {
   value       = random_password.k3s_cluster_secret.result
   sensitive   = true
 }
+
+output "kubernetes_ca_certs" {
+  description = "kubernetes CA Certs"
+  value = tls_self_signed_cert.kubernetes_ca_certs
+}
