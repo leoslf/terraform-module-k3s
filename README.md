@@ -95,6 +95,7 @@ module "k3s" {
 |------|-------------|
 | <a name="output_kube_config"></a> [kube\_config](#output\_kube\_config) | Genereated kubeconfig. |
 | <a name="output_kubernetes"></a> [kubernetes](#output\_kubernetes) | Authentication credentials of Kubernetes (full administrator). |
+| <a name="output_kubernetes_ca_certs"></a> [kubernetes\_ca\_certs](#output\_kubernetes\_ca\_certs) | kubernetes CA Certs |
 | <a name="output_kubernetes_cluster_secret"></a> [kubernetes\_cluster\_secret](#output\_kubernetes\_cluster\_secret) | Secret token used to join nodes to the cluster |
 | <a name="output_kubernetes_ready"></a> [kubernetes\_ready](#output\_kubernetes\_ready) | Dependency endpoint to synchronize k3s installation and provisioning. |
 | <a name="output_summary"></a> [summary](#output\_summary) | Current state of k3s (version & nodes). |
